@@ -1,0 +1,47 @@
+.dia{
+    background-color: #ffdd9d;
+
+}
+
+
+ 
+.sol-girando {
+    width: 500px; /* Ajuste o tamanho aqui */
+    /* Nome da animação | Duração | Ritmo | Repetição */
+    animation: giro-eterno 10s linear infinite;
+  }
+
+    /* Definindo o movimento de 0 a 360 graus */
+    @keyframes giro-eterno {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+    
+
+.noite{
+    background-color: #4A6699;
+    
+    
+}
+
+.Lua-girando {
+    width: 500px; /* Ajuste o tamanho aqui */
+    /* Nome da animação | Duração | Ritmo | Repetição */
+    animation: giro-eterno 10s linear infinite;
+  }
+
+    /* Definindo o movimento de 0 a 360 graus */
+    @keyframes giro-eterno {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+      
+  }
+    
