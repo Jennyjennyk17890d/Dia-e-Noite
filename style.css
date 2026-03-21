@@ -1,7 +1,39 @@
-.dia{
-    background-color: #ffdd9d;
-
+body.dia{
+  
+  margin: 0;
+  height: 100vh; /* Ocupa a altura toda da tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Degradê Estilo MLP: Azul Celeste para Azul Pálido */
+  background: linear-gradient(180deg, #75d1ff 0%, #c4e9ff 100%);
+  
+  overflow: hidden;
 }
+body.tarde{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Do roxo da noite (topo) para o laranja da tarde (base) */
+  background: linear-gradient(180deg, #2c3e50 0%, #a55eea 50%, #ff9f43 100%);
+  overflow: hidden;
+}
+body.noite{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Fundo Noite: Azul Marinho Escuro para Roxo Profundo */
+  background: linear-gradient(180deg, #0b1426 0%, #1e1b32 100%);
+  overflow: hidden;
+    
+    
+}
+
 
 
  
@@ -22,12 +54,6 @@
   }
     
 
-.noite{
-    background-color: #4A6699;
-    
-    
-}
-
 .Lua-girando {
     width: 500px; /* Ajuste o tamanho aqui */
     /* Nome da animação | Duração | Ritmo | Repetição */
@@ -44,4 +70,18 @@
     }
       
   }
+
+  .letra_fonte{
+    position: sticky; top: 0;
+    font-family:"Mlp_font";
+    color: white;
+    font-size: 48px;
+    text-shadow: 3px 3px 0px #beac9a; /* Sombra laranja para dar profundidade */
+    margin-top: -600px;
+  }
+  @font-face {
+  font-family: "Mlp_font";
+  /* O nome abaixo deve ser IGUAL ao nome do arquivo que você extraiu */
+  src: url('fonte.ttf/Equestria.otf'); 
+}
     
