@@ -38,7 +38,11 @@ body.noite{
 
  
 .sol-girando {
-    width: 500px; /* Ajuste o tamanho aqui */
+   position: absolute;
+    margin-bottom: 500px;
+    z-index: 5;
+    margin-left: 70%;
+    width: 300px; /* Ajuste o tamanho aqui */
     /* Nome da animação | Duração | Ritmo | Repetição */
     animation: giro-eterno 10s linear infinite;
   }
@@ -55,7 +59,11 @@ body.noite{
     
 
 .Lua-girando {
-    width: 500px; /* Ajuste o tamanho aqui */
+    position: absolute;
+    margin-bottom: 500px;
+    z-index: 5;
+    margin-left: 70%;
+    width: 300px; /* Ajuste o tamanho aqui */
     /* Nome da animação | Duração | Ritmo | Repetição */
     animation: giro-eterno 10s linear infinite;
   }
@@ -78,10 +86,46 @@ body.noite{
     font-size: 48px;
     text-shadow: 3px 3px 0px #beac9a; /* Sombra laranja para dar profundidade */
     margin-top: -600px;
+    margin-left: 400px;
   }
   @font-face {
   font-family: "Mlp_font";
   /* O nome abaixo deve ser IGUAL ao nome do arquivo que você extraiu */
   src: url('fonte.ttf/Equestria.otf'); 
+}
+
+.foto{
+  position: absolute;
+  width: 1689px;
+  height: auto;
+  margin-right: 800px;
+  z-index: 4;
+}
+.pon1{
+  position: absolute;
+ transform: translateX(-120px);
+ margin-top: -120px;
+ min-width: 400px;
+ z-index: 5;
+
+}
+
+.pon2{
+  position: absolute;
+ transform: translateX(-120px);
+ margin-top: -120px;
+ min-width: 400px;
+ z-index: 5;
+}
+
+.star{
+  position: relative;
+  z-index:3;
+}
+.sky{
+    position: relative;
+    z-index:3;
+    min-width: 500px;
+    margin-top: -36%;
 }
     
